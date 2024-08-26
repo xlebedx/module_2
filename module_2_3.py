@@ -13,6 +13,6 @@ while my_list[my_list_beginning_index] >= len(my_list) and my_list[my_list_begin
     print(my_list[my_list_beginning_index])
     my_list_beginning_index += 1
     if my_list[my_list_beginning_index] == 0:
-       continue
+        my_list_beginning_index += 1
     if my_list[my_list_beginning_index] < 0:
         break
