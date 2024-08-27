@@ -16,3 +16,4 @@ for i in numbers:
         not_primes.append(i)
 print(f'Primes: {primes}')
 print(f'Not Primes: {not_primes}')
+
